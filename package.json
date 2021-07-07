@@ -1,20 +1,16 @@
 {
   "name": "tua-cli",
   "version": "1.0.0",
-  "description": "",
   "main": "test.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "bin": {
     "tua-cli": "test.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "amies",
+  "license": "MIT",
   "devDependencies": {
     "commander": "^8.0.0",
     "cross-spawn": "^7.0.3",
     "mkdirp": "^0.5.5"
   },
-  "dependencies": {}
+  "description": "一款基础的脚手架工具"
 }

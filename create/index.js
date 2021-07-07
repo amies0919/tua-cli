@@ -1,6 +1,7 @@
 const path = require("path");
 const fs = require("fs");
 const mkdirp = require("mkdirp");
+const install = require("../utils/install");
 module.exports = function(name) {
     const projectDir = path.join(process.cwd(), name);
     mkdirp(projectDir).then(function(mode) {
@@ -12,6 +13,7 @@ module.exports = function(name) {
                 if(err) console.error(`创建${fileName}文件失败`);
                 else {
                     console.log(`创建${fileName}成功`);
+                    install({cwd: projectDir})
                 }
             })
         }else{

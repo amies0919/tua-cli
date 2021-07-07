@@ -1,6 +1,6 @@
 {
   "name": "tua-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "test.js",
   "bin": {
     "tua-cli": "test.js"

@@ -9,6 +9,7 @@
   "license": "MIT",
   "description": "一款基础的脚手架工具",
   "dependencies": {
+    "chalk": "^4.1.1",
     "commander": "^8.0.0",
     "cross-spawn": "^7.0.3",
     "mkdirp": "^1.0.4"

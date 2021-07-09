@@ -1,9 +1,13 @@
 {
   "name": "tua-cli",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "main": "test.js",
   "bin": {
     "tua-cli": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:amies0919/tua-cli.git"
   },
   "author": "amies",
   "license": "MIT",
